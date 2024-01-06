@@ -11,9 +11,10 @@ function seleccionarMascotaJugador(){
     let inputLangostelvis = document.getElementById('Langostelvis')
     let inputTucapalma = document.getElementById('Tucapalma')
     let inputPydos = document.getElementById('Pydos')
+    let spanMascotaJugador = document.getElementById('mascota-jugador')
     
     if (inputHipodoge.checked) {
-        alert('Seleccionaste a Hipodoge')
+        spanMascotaJugador.innerHTML = 'Hipodoge'
     } else if (inputCapipepo.checked) {
         alert('Seleccionaste a Capipepo')
     } else if (inputRatigueya.checked) {
