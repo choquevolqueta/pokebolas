@@ -1,4 +1,4 @@
-#titulo {
+.titulo {
 
     color: hotpink;
     width: 310px;
@@ -6,6 +6,10 @@
     background-color: teal;   
 }
 
-label {
-    background-color: tomato;
+#selec-masc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
