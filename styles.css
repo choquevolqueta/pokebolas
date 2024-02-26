@@ -13,3 +13,28 @@
     justify-content: center;
     align-content: center;
 }
+
+.tarjeta-de-mokepon {
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid hotpink;
+}
+
+.seleccionado {
+    width: 100px;
+    height: 80px;
+    background: blanchedalmond;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid maroon;
+}
+
+input {
+    display: none;
+
+}
