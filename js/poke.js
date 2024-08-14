@@ -30,7 +30,7 @@ function seleccionarMascotaJugador(){
     sectionSeleccionarMascota.style.display = 'none'
     
     let sectionSeleccionarAtaque = document.getElementById('selec-ataque')
-    sectionSeleccionarAtaque.style.display = 'block'
+    sectionSeleccionarAtaque.style.display = 'flex'
     
     
     let inputHipodoge = document.getElementById('Hipodoge')
@@ -45,6 +45,7 @@ function seleccionarMascotaJugador(){
     } else if (inputRatigueya.checked) {
         spanMascotaJugador.innerHTML = 'Ratigueya'
     } else { alert('Selecciona un pokemon porfa')
+        reiniciarJuego()
     }
 
     seleccionarMascotaEnemigo()
