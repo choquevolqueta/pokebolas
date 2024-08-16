@@ -128,3 +128,8 @@ input {
     border-radius: 10px;
     border: none
 }
+
+.grid__ataques {
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
