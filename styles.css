@@ -33,7 +33,7 @@ body{
 .tarjetas {
     display: flex;
     gap: 10px;
-
+    
 }
 
 .tarjeta-de-mokepon {
@@ -75,7 +75,9 @@ input {
     display: none;
 
 }
-
+input:checked + label {
+    background-color: red;
+}
 #selec-ataque {
     display: flex;
     flex-direction: column;
@@ -93,6 +95,10 @@ input {
     font-size: 1.5rem;
     border-radius: 10px;
     border: none
+}
+
+.boton__ataque:hover {
+    background-color: #1e7cc0;
 }
 
 .reiniciar__resultados {
@@ -141,8 +147,14 @@ input {
 
 }
 
-@media (max-width: 500px) {
-    body {
-        background-color: aqua;
+@media (max-width: 800px) {
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .botones__ataque {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
